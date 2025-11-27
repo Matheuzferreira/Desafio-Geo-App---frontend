@@ -1,7 +1,6 @@
-
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import CreateReportScreen from './src/CreateReport'; 
+import CreateReportScreen from './src/CreateReport'; // ⬅️ Caminho correto para a sua estrutura
 
 const Stack = createNativeStackNavigator();
 

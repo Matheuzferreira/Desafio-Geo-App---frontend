@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Alert } from 'react-native';
-import api from './services/api'; 
+import api from './services/api'; // ⬅️ Caminho do API
 
 const CreateReportScreen = ({ navigation }) => {
   const [titulo, setTitulo] = useState('');
